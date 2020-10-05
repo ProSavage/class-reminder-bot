@@ -1,0 +1,6 @@
+version: "2"
+services:
+  discord-bot:
+    env_file:
+      - "prod.env"
+    image: prosavage/class-reminder-bot

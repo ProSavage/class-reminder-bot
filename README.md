@@ -11,4 +11,6 @@ Use `yarn dev` to start using `ts-node`, make sure to `yarn install` first.
 Using `yarn && yarn start` will install dependencies, then compile typescript into javascript, and run the project. 
 
 This project is easily ran using docker:
-*Still under construction*
+Use `yarn docker` first, to build the actual docker-image.
+Next, you can use the provided `docker-compose.yml` to run the docker-image, make a `prod.env` file first, and put the 
+discord bot's token in there, use the `.env.sample` file's format, then run `docker-compose up`

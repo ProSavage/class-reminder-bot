@@ -5,9 +5,11 @@
   "license": "MIT",
   "scripts": {
     "start": "tsc && node dist/src/index.js",
-    "dev": "ts-node src/index.ts"
+    "dev": "ts-node src/index.ts",
+    "docker": "docker build -t prosavage/class-reminder-bot:latest ."
   },
   "dependencies": {
+    "@types/mongodb": "^3.5.27",
     "discord.js": "^12.3.1",
     "dotenv": "^8.2.0"
   },
