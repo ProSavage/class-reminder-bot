@@ -1,0 +1,10 @@
+.env
+dist/
+.idea/
+yarn-error.log
+yarn.lock
+node_modules/
+# Project exclude paths
+/src/util/dateutils.js
+/src/util/placeholder.js
+/src/index.js

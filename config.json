@@ -1,0 +1,44 @@
+{
+    "reminder-channel-id": "762777161407922197",
+    "reminder-format": {
+        "color":  "#0099ff",
+        "title": "{name}",
+        "url": "{zoom-link}",
+        "author": "Class Reminder",
+        "fields": [
+            {
+                "name": "Class Link",
+                "value": "{zoom-link}"
+            }
+        ]
+    },
+    "reminders": [
+        {
+            "name": "2PM Class",
+            "time": {
+                "days": ["Tuesday", "Thursday"],
+                "hour": 14,
+                "minute": 0
+            },
+            "zoom-link": "https://auburn.zoom.us/j/94811031814"
+        }, 
+        {
+            "name": "3:30PM Class",
+            "time": {
+                "days": ["Monday", "Wednesday", "Friday"],
+                "hour": 15,
+                "minute": 30
+            },
+            "zoom-link": "https://auburn.zoom.us/j/97924680593"
+        },
+        {
+            "name": "Test Class",
+            "time": {
+                "days": ["Monday", "Wednesday", "Friday"],
+                "hour": 15,
+                "minute": 49
+            },
+            "zoom-link": "https://auburn.zoom.us/j/94811031814"
+        }
+    ]
+}
