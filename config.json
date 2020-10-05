@@ -30,15 +30,6 @@
                 "minute": 30
             },
             "zoom-link": "https://auburn.zoom.us/j/97924680593"
-        },
-        {
-            "name": "Test Class",
-            "time": {
-                "days": ["Monday", "Wednesday", "Friday"],
-                "hour": 15,
-                "minute": 49
-            },
-            "zoom-link": "https://auburn.zoom.us/j/94811031814"
         }
     ]
 }
